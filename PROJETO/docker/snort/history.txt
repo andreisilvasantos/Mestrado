@@ -1,0 +1,60 @@
+ls
+    2  snort -c /usr/local/etc/snort/snort.lua 
+    3  ip addr
+    4  ip
+    5  if exit; ifconfig; exit
+    6  ifconfig
+    7  cat /etc/os-release 
+    8  ping google.com
+    9  wget google.com
+   10  ls
+   11  rm index.html 
+   12  cd /usr/local/etc/snort/
+   13  ls
+   14  nano snort.lua 
+   15  snort -c snort.lua 
+   16  snort -R /work/snort3-3.1.53.0/lua/snort3-community.rules -A alert_test -n 1000000
+   17  nano snort.lua 
+   18  ls /etc/networks 
+   19  cat /etc/networks 
+   20  netplan
+   21  dpkg --list
+   22  apt install net-tools
+   23  ip addr
+   24  ifconfig
+   25  routes
+   26  route
+   27  nano snort.lua 
+   28  snort -R /work/snort3-3.1.53.0/lua/snort3-community.rules -i wlp0s20f3 -A alert_test -n 1000000
+   29* snort -c snort.lua -i wlp0s20f3 -A alert_test -n 1000000 
+   30  snort -c snort.lua -R /work/snort3-3.1.53.0/lua/snort3-community.rules -i wlp0s20f3 -A alert_test -n 1000000
+   31  snort -c snort.lua -R /work/snort3-3.1.53.0/lua/snort3-community.rules -i wlp0s20f3 -s 65535 -k none -l /var/log/snort/
+   32  snort --help
+   33  snort --help | grep log
+   34  snort --help-commands | grep log
+   35  snort --help-config alert_full
+   36  man snort
+   37  snort --help-commands
+   38  snort ?
+   39  snort -?
+   40  snort -? | grep log
+   41  ls
+   42  mkdir /var/log/snort
+   43  snort -c snort.lua -R /work/snort3-3.1.53.0/lua/snort3-community.rules -i wlp0s20f3 -s 65535 -k none -l /var/log/snort/
+   44  ls /var/log/snort/
+   45  snort -c snort.lua -R /work/snort3-3.1.53.0/lua/snort3-community.rules -i wlp0s20f3 -s 65535 -k none -A
+   46  snort -c snort.lua -R /work/snort3-3.1.53.0/lua/snort3-community.rules -i wlp0s20f3 -s 65535 -A
+   47  snort -c snort.lua -R /work/snort3-3.1.53.0/lua/snort3-community.rules -i wlp0s20f3 -s 65535 -A console
+   48  snort -c snort.lua -R /work/snort3-3.1.53.0/lua/snort3-community.rules -i wlp0s20f3 -s 65535 -A 
+   49  snort -c snort.lua -R /work/snort3-3.1.53.0/lua/snort3-community.rules -i wlp0s20f3 -s 65535 -A alert_*
+   50  snort -c snort.lua -R /work/snort3-3.1.53.0/lua/snort3-community.rules -i wlp0s20f3 -s 65535 -k none -A console
+   51  snort -c snort.lua -R /work/snort3-3.1.53.0/lua/snort3-community.rules -i wlp0s20f3 -s 65535 -k none
+   52  ls
+   53  find / -iname snort
+   54  ls /var/log/snort
+   55  ls /work/snort3-3.1.53.0/build/src/snort
+   56  ls /usr/local/share/doc/snort
+   57* 
+   58  snort -c snort.lua -R /work/snort3-3.1.53.0/lua/snort3-community.rules -i wlp0s20f3 -s 65535 -k none -l /var/log/snort/
+   59  ls /var/log/snort
+   60  history
